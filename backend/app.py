@@ -58,6 +58,7 @@ def create_app():
     return app
 
 
+app = create_app()
+
 if __name__ == "__main__":
-    application = create_app()
-    application.run(debug=DEBUG, port=5000)
+    app.run(debug=DEBUG, port=5000)
