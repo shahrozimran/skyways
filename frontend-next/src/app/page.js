@@ -368,7 +368,7 @@ export default function HomePage() {
             </div>
           </div>
           
-          <div className="relative w-full py-4">
+          <div className="relative w-full py-4 overflow-hidden">
             <div 
               className="flex transition-transform duration-500 ease-out"
               style={{
